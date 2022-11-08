@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    
+  escreva("boa noite, seja bem-vindo")
+  inteiro idade
+  cadeia peso
+  cadeia nome
+  escreva(" digitar nome: ")
+  leia (nome)
+  escreva("digitar peso: ")
+  leia(peso)
+  escreva("digitar idade: ")
+  leia (idade)
+  escreva("sr." , nome, " seu peso é: " , peso, " ,e sua idade é: " ,idade)
+}
